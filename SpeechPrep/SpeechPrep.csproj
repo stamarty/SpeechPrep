@@ -353,10 +353,6 @@
     <Compile Include="Migrations\201911060726279_testmigration.designer.cs">
       <DependentUpon>201911060726279_testmigration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911060828219_Removale of Dropped Tables.cs" />
-    <Compile Include="Migrations\201911060828219_Removale of Dropped Tables.designer.cs">
-      <DependentUpon>201911060828219_Removale of Dropped Tables.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201911062348239_UpdateQuestion.cs" />
     <Compile Include="Migrations\201911062348239_UpdateQuestion.designer.cs">
       <DependentUpon>201911062348239_UpdateQuestion.cs</DependentUpon>
@@ -470,7 +466,8 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Profile\User.cshtml" />
     <Content Include="Views\Question\MasterList.cshtml" />
-    <Content Include="Views\Question\QuestionSort.cshtml" />
+    <Content Include="Views\Question\_QuestionSort.cshtml" />
+    <Content Include="Views\Question\_QuestionNavSort.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -505,9 +502,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911060726279_testmigration.resx">
       <DependentUpon>201911060726279_testmigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201911060828219_Removale of Dropped Tables.resx">
-      <DependentUpon>201911060828219_Removale of Dropped Tables.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911062348239_UpdateQuestion.resx">
       <DependentUpon>201911062348239_UpdateQuestion.cs</DependentUpon>
