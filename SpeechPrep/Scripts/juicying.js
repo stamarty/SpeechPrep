@@ -1,5 +1,7 @@
-﻿
-//"use strict";
+﻿"use strict";
+
+
+//Creates the shadow for the navigational bar on scroll
 window.addEventListener("scroll", () => {
     const navBar = document.getElementsByTagName("nav")[0];
     if (this.scrollY != 0) {
@@ -9,6 +11,10 @@ window.addEventListener("scroll", () => {
         navBar.setAttribute("id", "navBarShadowOut");
     }
 })
+
+//Settings for partial.js framework
+//TODO: Create option that if CDN for partial.js isn't working to use local library partial.js (get partial.js)
+//Add option to check if contextCanvasBG exists on page/ check if page is index? then load
 window.onload = function () {
     console.log("working");
     Particles.init({
@@ -61,3 +67,6 @@ window.onload = function () {
     });
 
 };
+
+
+
